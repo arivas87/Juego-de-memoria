@@ -20,5 +20,9 @@ for item in rango {
         salida += " impar!!!"
     }
     
-    print("\(item)\(salida)")
+    if item >= 30 && item <= 40 {
+        salida += " Viva Swift!!!"
+    }
+    
+    print("#\(item)\(salida)")
 }
